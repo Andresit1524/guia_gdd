@@ -1,44 +1,51 @@
-
 /// Links a los juegos
-#let juegos_links = (
+#let links = (
   "Expedition 33": "https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/",
   "Saga GTA": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/",
   "Minecraft": "https://www.minecraft.net/es-es",
   "Slay the Spire 2": "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/",
+  "HALO: Combat Evolved": ".",
   "Undertale": "https://store.steampowered.com/app/391540/Undertale/",
   "Deltarune": "https://store.steampowered.com/app/1671210/DELTARUNE/",
   "Hades": "https://store.steampowered.com/app/1145360/Hades/",
   "Índigo Park: Chapter 1": "https://store.steampowered.com/app/2504480/Indigo_Park_Chapter_1/",
-  "Fornite": "https://store.epicgames.com/p/fortnite",
+  "Fortnite": "https://store.epicgames.com/p/fortnite",
   "Saga Pokémon": "https://www.pokemon.com/es",
   "Geometry Dash": "https://store.steampowered.com/app/322170/Geometry_Dash/",
   "Hollow Knight": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+  "TouHou": ".",
   "Mario Bros.": "https://www.nintendo.co.jp/n08/mariobros/index.html",
   "Devil May Cry": "https://store.steampowered.com/app/631510/Devil_May_Cry_HD_Collection/",
   "Devil May Cry 3": "https://store.steampowered.com/app/631510/Devil_May_Cry_HD_Collection/",
   "God of War": "https://store.steampowered.com/app/1593500/God_of_War/",
   "Doki Doki Literature Club": "https://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/",
   "Beast Card Clash": "https://richigame.itch.io/beast-card-clash",
+  "Club Penguin": ".",
+  "Animal Crossing": ".",
 )
 
 /// Detalles de los juegos
-#let lista_juegos = (
+#let details = (
   ("Expedition 33", "(2025)"),
   ("Saga GTA", "(desde 1997)"),
   ("Minecraft", "(2011)"),
   ("Slay the Spire 2", "(2026)"),
+  ("HALO: Combat Evolved", "()"),
   ("Undertale", "(2015)"),
   ("Deltarune", "(desde 2018)"),
   ("Hades", "(2020)"),
   ("Índigo Park: Chapter 1", "(desde 2024)"),
-  ("Fornite", "(2017)"),
+  ("Fortnite", "(2017)"),
   ("Saga Pokémon", "(desde 1996)"),
   ("Geometry Dash", "2013"),
   ("Hollow Knight", "(2017)"),
+  ("TouHou", "()"),
   ("Mario Bros.", "1985"),
   ("Devil May Cry", "(2001)"),
   ("Devil May Cry 3", "(2005)"),
   ("God of War", "(2004)"),
   ("Doki Doki Literature Club", "(2017)"),
   ("Beast Card Clash", "(desde 2025, en desarrollo)"),
+  ("Club Penguin", "()"),
+  ("Animal Crossing", "()"),
 )

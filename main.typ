@@ -376,21 +376,17 @@ Notas adicionales o elementos que no encajen en las categorías anteriores.
 = Bibliografía
 
 == Recursos
-- #link(
-    "https://www.udit.es/el-manifiesto-del-game-designer-por-que-tu-juego-necesita-un-game-design-document-gdd-y-como-crearlo-como-los-profesionales/",
-  )[Estructura profesional de un GDD por UDIT]
-- #link(
-    "https://es.wikipedia.org/wiki/Documento_de_dise%C3%B1o_de_videojuegos",
-  )[Documento de diseño de videojuegos - Wikipedia]
-- #link("https://youtu.be/ZKo4uRTxdCA")[Tutorial para GDDs por Alva Mayo]
-- #link(
-    "https://gamescrye.com/resources/game-design-documents/#:~:text=See%20How%20Others%20Built%20Their%20Games.%20We're,An%20Ant's%20Life.%20PC.%202009.%20BooH.%20PC",
-  )[Ejemplos de GDD (en inglés)]
+#{
+  import "bibliography.typ": *
+  for (text, _link) in references [
+    - #link(_link)[#text]
+  ]
+}
 
 == Juegos mencionados
 #{
   import "games.typ": *
-  for (nombre, detalle) in lista_juegos [
-    - #link(juegos_links.at(nombre))[#nombre] #detalle
+  for (name, detail) in details [
+    - #link(links.at(name))[#name] #detail
   ]
 }
