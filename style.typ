@@ -13,7 +13,6 @@
 
   // Texto
   set text(font: "Ancizar Sans", lang: "es")
-  show raw: set text(font: "Google Sans Code NF")
 
   // Encabezados
   show heading: set text(fill: green_gdd_dark)
@@ -61,17 +60,18 @@
   #body
 ]
 
-/// Capsula
-#let optional-for-newbies = box(
-  fill: green_gdd_light,
-  inset: 0.2em,
-  radius: 50%,
-  text(size: 0.7em, fill: green_gdd_dark, "Opcional para nuevos proyectos"),
-)
+/// Capsula de "Opcional para nuevos proyectos"
+#let optional-for-newbies = {
+  let size = 0.6em
 
-/// Título opcional para nuevos proyectos
-#let optional-heading(title) = {
-  optional-for-newbies
-  h(8pt)
-  heading(level: 1, outlined: false, title)
+  h(size)
+  box(
+    fill: green_gdd_light,
+    outset: size / 2,
+    radius: 50%,
+    text(
+      size: size,
+      fill: green_gdd_dark,
+    )[Opcional para nuevos proyectos],
+  )
 }
