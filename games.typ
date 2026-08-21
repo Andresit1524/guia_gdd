@@ -34,7 +34,7 @@
   ("Undertale", "(2015)"),
   ("Deltarune", "(desde 2018)"),
   ("Hades", "(2020)"),
-  ("Índigo Park: Chapter 1", "(desde 2024)"),
+  ("Índigo Park: Chapter 1", "(2024)"),
   ("Fortnite", "(2017)"),
   ("Saga Pokémon", "(desde 1996)"),
   ("Geometry Dash", "2013"),

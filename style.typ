@@ -5,9 +5,13 @@
 
 #let style(body) = {
   // Página y documento
-  set document(title: [Guía para escritura de GDDs])
+  set document(
+    title: [Guía para escritura de GDDs],
+    author: ("Hayran Andres López", "Daniel Durán", "GDD Colombia"),
+    keywords: ("GDD", "Game Design", "Desarrollo de videojuegos"),
+  )
   set page(
-    background: image("assets/logo_green.png", width: 60%),
+    background: image("assets/logo_translucid.png", width: 60%),
     footer: align(right, context counter(page).display("1 de 1", both: true)),
   )
 
