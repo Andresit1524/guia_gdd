@@ -65,7 +65,7 @@
 ]
 
 /// Capsula de "Opcional para nuevos proyectos"
-#let optional-for-newbies = {
+#let optional-capsule = {
   let size = 0.6em
 
   h(size)
@@ -76,6 +76,6 @@
     text(
       size: size,
       fill: green_gdd_dark,
-    )[Opcional para nuevos proyectos],
+    )[Opcional],
   )
 }

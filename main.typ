@@ -59,14 +59,14 @@ En todo caso, se recomienda elaborar un GDD monolítico en un tiempo y extensió
   + *Desarrollo*
     - Herramientas a usar
     - Plataformas objetivo
-    - Flujo de trabajo #optional-for-newbies
+    - Flujo de trabajo #optional-capsule
   + *Diseño*
     - Pilares de diseño
     - Identidad y puntos clave
     - Experiencia del jugador
     - Game loop
-    - Progresión
-    - Sistemas #optional-for-newbies
+    - Progresión y objetivos
+    - Sistemas #optional-capsule
   + *Contenido*
     - Mecánicas
     - Aprendizaje del jugador
@@ -77,9 +77,9 @@ En todo caso, se recomienda elaborar un GDD monolítico en un tiempo y extensió
     - Interfaz
   + *Referencias*
     - Inspiraciones
-    - Investigación de mercado #optional-for-newbies
-    - Contenido preliminar #optional-for-newbies
-    - Anexos (opcional)
+    - Investigación de mercado #optional-capsule
+    - Contenido preliminar #optional-capsule
+    - Anexos #optional-capsule
 ]
 
 === Cosas que no van en este GDD (y normalmente en ninguno)
@@ -165,7 +165,7 @@ Si te parece relevante, puedes explicar brevemente porque has elegido las herram
   - macOS X
 ]
 
-=== Flujo de trabajo #optional-for-newbies
+=== Flujo de trabajo #optional-capsule
 ¿De qué manera van a trabajar como equipo o individuo? ¿Cuáles son sus prioridades? Definir esto permite despejar dudas y evitar bloqueos en el grupo. Algunas nociones que se pueden discutir son:
 
 - Repartición de tareas y manejo del proyecto: ¿Quién hace qué? ¿Todos tienen acceso a todo? ¿Como fluyen los recursos desde su autor hasta el producto final?
@@ -235,7 +235,7 @@ El _game loop_ está estrechamente relacionado con el género de tu videojuego; 
   Otras dinámicas, como las zonas seguras o el botín (_loot_), dependen del juego en particular.
 ]
 
-=== Progresión
+=== Progresión y objetivos
 ¿Cómo avanza el jugador en tu juego? ¿Cuáles son sus objetivos a corto y largo plazo? ¿Están alineados con la fantasía que deseas transmitir? Al igual que el _game loop_, la progresión suele definirse con base en el género seleccionado. Por supuesto, la progresión también se vincula al contenido y a la narrativa del juego, aunque no los determina _per se_.
 
 Además de los objetivos, también se discuten el ritmo, la dificultad y las dinámicas de avance del juego: ¿Tu juego es frénetico, calmado o abrupto? ¿Cuán dificil pretendes que sea al avance? ¿Cómo se mide el progreso del jugador?.
@@ -247,7 +247,7 @@ Además de los objetivos, también se discuten el ritmo, la dificultad y las din
   // TODO: añadir mejores explicaciones
 ]
 
-=== Sistemas #optional-for-newbies
+=== Sistemas #optional-capsule
 Todos los juegos están compuestos de sistemas, si es que un juego no es un sistema en sí mismo. Indica qué sistemas incluye tu juego y cómo impactan en la experiencia del jugador. Los sistemas suelen abarcar:
 
 - Economía y gestión de recursos
@@ -349,7 +349,7 @@ Procura no añadir detalles excesivamente específicos o irrelevantes.
   Beast Card Clash es uno de los proyectos de GDD más recientes y avanzados. Se inspira fuertemente en el minijuego Card-Jitsu Fuego de Club Penguin, combinando elementos de mundo abierto y _roguelike_. Su estética _cozy_ recuerda a títulos como Animal Crossing.
 ]
 
-=== Investigación de mercado #optional-for-newbies
+=== Investigación de mercado #optional-capsule
 Investiga sobre juegos similares al tuyo (en tiendas digitales, opiniones y otras fuentes) y explica:
 
 - ¿Qué juegos encuentras? ¿Cuáles conoces?
@@ -360,10 +360,10 @@ Investiga sobre juegos similares al tuyo (en tiendas digitales, opiniones y otra
 
 Esta información te será muy útil para contrastar tus ideas con la realidad, obtener inspiración y definir el contenido que le puede gustar a tus posibles jugadores.
 
-=== Contenido preliminar #optional-for-newbies
+=== Contenido preliminar #optional-capsule
 Incluye el material existente del proyecto: bocetos, ideas iniciales de contenido, capturas o pruebas de un prototipo, links, etc. Si tu proyecto ya está en desarrollo, incluye solo lo esencial.
 
-=== Anexos (opcional)
+=== Anexos #optional-capsule
 Notas adicionales o elementos que no encajen en las categorías anteriores.
 
 #pagebreak()
