@@ -41,7 +41,7 @@ Hay dos métodos para elaborar un GDD:
 Nosotros usamos ambas formas, y ambas son útiles. Sin embargo, para el *checkpoint 1* solicitamos un *GDD monolítico*. El GDD vivo se redacta durante el desarrollo y no sigue una estructura fija, aunque esta guía resulta igualmente útil para ese tipo de documentos.
 
 == ¿Por qué pedimos un GDD monolítico?
-Un GDD monolítico se redacta en un solo documento exhaustivo. suele ser extenso, poco atractivo de leer, tiende a desactualizarse y no siempre se adapta al proceso creativo de un proyecto. Entonces, ¿por qué lo utilizamos?
+Un GDD monolítico se redacta en un solo documento exhaustivo. Suele ser extenso, poco atractivo de leer, tiende a desactualizarse y no siempre se adapta al proceso creativo de un proyecto. Entonces, ¿por qué lo utilizamos?
 
 La razón principal para seguir esta estructura es que resulta perfecta para *argumentar tu proyecto*. Te obliga a responder preguntas clave mientras el GDD registra las respuestas. Tu documento no tendrá 100 páginas, tal vez unas 20 a 50 como máximo. Esto es perfectamente manejable en la práctica, por lo que no es un archivo infinito e inútil, sino un documento accesible y orientado a la planificación.
 
@@ -87,17 +87,17 @@ En todo caso, se recomienda elaborar un GDD monolítico en un tiempo y extensió
 - Contenido planeado para MVP: va en la documentación
 - Cronogramas: siempre se incumplen y desactualizan
 - Alcance planeado: no es relevante y quizá sea irrealista
-- Requerimientos técnicos para el juego: difícil de dimensionar y poco relevante
+- Requerimientos técnicos para el juego: difíciles de dimensionar y poco relevantes
 
-=== ¿En que orden se diligencia?
+=== ¿En qué orden se diligencia?
 Es recomendable diligenciar primero la sección "Referencias" para obtener información externa, luego las demás secciones en orden. Las secciones están diseñadas para que puedas diligenciarlas con la información de secciones anteriores, por lo que ir en orden puede beneficiarte.
 
-En todo caso, puedes completar el documento en el orden que te parezca más relevante para tí.
+En todo caso, puedes completar el documento en el orden que te parezca más relevante para ti.
 
 #pagebreak()
 
 = Contenido de un GDD
-La estructura que recomendamos consta de 5 secciones: resumen, desarrollo, diseño, contenido y referencias. Cada una busca abordar un aspecto diferente y ofrecer una visión integral de tu proyecto. Es fundamental destacar que un GDD *no hace las veces de documentación*; por lo tanto, los detalles minuciosos e implemantaciones específicas no van en este documento. Un GDD se enfoca en las características esenciales del proyecto.
+La estructura que recomendamos consta de 5 secciones: resumen, desarrollo, diseño, contenido y referencias. Cada una busca abordar un aspecto diferente y ofrecer una visión integral de tu proyecto. Es fundamental destacar que un GDD *no hace las veces de documentación*; por lo tanto, los detalles minuciosos e implementaciones específicas no van en este documento. Un GDD se enfoca en las características esenciales del proyecto.
 
 == 1. Resumen
 
@@ -116,7 +116,7 @@ Un resumen de 1 o 2 frases que explique de qué va tu juego y por qué es divert
 ]
 
 === Público objetivo
-Tu juego *jamás* será para todo el mundo. Definir qué tipo de persona quieres que juegue tu juego te ayudará a comprender qué diseño adoptar y que contenido incluir. Describe motivaciones, gustos, edades, géneros, e incluso inspiraciones y características que atraigan a las personas indicadas.
+Tu juego *jamás* será para todo el mundo. Definir qué tipo de persona quieres que juegue tu juego te ayudará a comprender qué diseño adoptar y qué contenido incluir. Describe motivaciones, gustos, edades, géneros, e incluso inspiraciones y características que atraigan a las personas indicadas.
 
 Tu público objetivo no es un límite estricto: técnicamente cualquiera podría jugar tu título, pero no a todos les va a gustar (estos últimos quedan fuera de dicho público). Asimismo, el público objetivo aclara quiénes no deberían jugar: un juego +18 no debe ser jugado por menores de edad, mientras que uno enfocado en preescolares resulta inadecuado o irrelevante para adultos.
 
@@ -148,7 +148,7 @@ Existen algunas obviedades que puedes omitir en esta sección:
 - WhatsApp y Discord para comunicación, pues son los canales habituales
 - Hardware, tanto el esencial para el desarrollo como para el testeo
 
-Si te parece relevante, puedes explicar brevemente porque has elegido las herramientas que usarás. Te ayudará a comprender tu decisión a futuro y evitar migraciones/cambios de software innecesarios.
+Si te parece relevante, puedes explicar brevemente por qué has elegido las herramientas que usarás. Te ayudará a comprender tu decisión a futuro y evitar migraciones/cambios de software innecesarios.
 
 #example(source: [Slay the Spire 2])[
   Slay the Spire 2 fue desarrollado en Unity + C\# y luego migrado a Godot + C\#. También se utilizaron librerías propietarias de Mega Crit. No hay información más detallada sobre el resto de herramientas usadas; en tu caso, puedes elegir las que consideres adecuadas.
@@ -168,10 +168,10 @@ Si te parece relevante, puedes explicar brevemente porque has elegido las herram
 === Flujo de trabajo #optional-capsule
 ¿De qué manera van a trabajar como equipo o individuo? ¿Cuáles son sus prioridades? Definir esto permite despejar dudas y evitar bloqueos en el grupo. Algunas nociones que se pueden discutir son:
 
-- Repartición de tareas y manejo del proyecto: ¿Quién hace qué? ¿Todos tienen acceso a todo? ¿Como fluyen los recursos desde su autor hasta el producto final?
-- Integración del trabajo: ¿Como implementan todo? ¿Como evitan y solucionan conflictos?
+- Repartición de tareas y manejo del proyecto: ¿Quién hace qué? ¿Todos tienen acceso a todo? ¿Cómo fluyen los recursos desde su autor hasta el producto final?
+- Integración del trabajo: ¿Cómo implementan todo? ¿Cómo evitan y solucionan conflictos?
 - Forma de iteración: ¿Iteran rápido o se esfuerzan en un solo intento hasta que quede bien? ¿Qué hacen con los prototipos?
-- Manejo del feedback: ¿Piden retroalimentación a terceros? ¿Como se gestiona la opinión del equipo?
+- Manejo del feedback: ¿Piden retroalimentación a terceros? ¿Cómo se gestiona la opinión del equipo?
 
 No es obligatorio responder cada pregunta. Solo las que sean relevantes, y las que quieras añadir que valga la pena tener en cuenta.
 
@@ -238,13 +238,14 @@ El _game loop_ está estrechamente relacionado con el género de tu videojuego; 
 === Progresión y objetivos
 ¿Cómo avanza el jugador en tu juego? ¿Cuáles son sus objetivos a corto y largo plazo? ¿Están alineados con la fantasía que deseas transmitir? Al igual que el _game loop_, la progresión suele definirse con base en el género seleccionado. Por supuesto, la progresión también se vincula al contenido y a la narrativa del juego, aunque no los determina _per se_.
 
-Además de los objetivos, también se discuten el ritmo, la dificultad y las dinámicas de avance del juego: ¿Tu juego es frénetico, calmado o abrupto? ¿Cuán dificil pretendes que sea al avance? ¿Cómo se mide el progreso del jugador?.
+Además de los objetivos, también se discuten el ritmo, la dificultad y las dinámicas de avance del juego: ¿Tu juego es frenético, calmado o abrupto? ¿Cuán difícil pretendes que sea el avance? ¿Cómo se mide el progreso del jugador?
 
 #example(source: [Saga Pokémon])[
-  En Pokémon, los objetivos a corto plazo consisten en obtener medallas y fortalecer a tu equipo, con el fin supremo de
-  enfrentar al Alto Mando y al campeón de la región.
+  En Pokémon, los objetivos a corto plazo consisten en obtener medallas y fortalecer a tu equipo, con el fin supremo de enfrentar al Alto Mando y al campeón de la región. Comienzas con un Pokémon inicial, exploras, encuentras entrenadores y haces combates, hasta llegar a los gimnasios. En los gimnasios obtienes nuevas medallas y habilidades para explorar el mundo.
 
-  // TODO: añadir mejores explicaciones
+  Luego de obtener 8 medallas y todas las habilidades, te diriges a la calle victoria y llegas a la Liga Pokémon, donde derrotas al alto mando y al campeón de la región para convertirte en el nuevo campeón.
+
+  Pokémon posee un ritmo suave y una curva de dificultad que recuerda una línea recta y suave. Esto es, un ritmo constante.
 ]
 
 === Sistemas #optional-capsule
@@ -269,7 +270,7 @@ Puedes incluirlos si son especialmente innovadores o identitarios para tu juego,
   - Dos modos de juego: normal y de plataformas (desde la 2.2)
   - Personalización de los vehículos
   - Monedas, gemas, estrellas, llaves... todas con sus propios usos
-  - _Gaunlets_ y _map packs_
+  - _Gauntlets_ y _map packs_
 ]
 
 == 4. Contenido
@@ -282,18 +283,18 @@ Los buenos juegos suelen mezclar su narrativa directamente con las mecánicas, y
 #example(source: [Undertale])[
   En Undertale (y Deltarune) destacan:
 
-  - El sistema de piedad (LOVE) que altera la historia y cuestiona el jugador
-  - El _bullet hell_ (esquivar balas con patrones) heredado de TouHou, en este caso con la alma (corazón)
+  - El sistema de piedad (LOVE) que altera la historia y cuestiona al jugador
+  - El _bullet hell_ (esquivar balas con patrones) heredado de TouHou, en este caso con el alma (corazón)
   - Una historia con sus rutas basada en las acciones del jugador
 
   Estas mecánicas dirigen y conectan la narrativa con el jugador y sus decisiones. Por eso Undertale ha sido tan exitoso en su objetivo.
 ]
 
 === Aprendizaje del jugador
-¿Cómo aprende el jugador a jugar tu juego? Idealmente no deberías de necesitar tutoriales ni pistas, pero si es el caso, indícalo. Puedes comenzar por indicar las mecánicas asociadas al aprendizaje del jugador, o apelar a tus pilares de diseño. El objetivo es hacer un juego que no trate a los jugadores como tontos (con la infame pintura amarilla, por ejemplo).
+¿Cómo aprende el jugador a jugar tu juego? Idealmente no deberías necesitar tutoriales ni pistas, pero si es el caso, indícalo. Puedes comenzar por indicar las mecánicas asociadas al aprendizaje del jugador, o apelar a tus pilares de diseño. El objetivo es hacer un juego que no trate a los jugadores como tontos (con la infame pintura amarilla, por ejemplo).
 
 #example(source: [Mario Bros.])[
-  Mario Bros. no tiene tutorial. En cambio, te pone en el primer nivel, con la capacidad de progresar adecuadamente por los obstáculos posibles (Gumbas, plataformas, Koopas, huecos, plantas) y las mecánicas (bloques especiales, pisar gumbas, entrar en tubos), etc.
+  Mario Bros. no tiene tutorial. En cambio, te pone en el primer nivel, con la capacidad de progresar adecuadamente por los obstáculos posibles (Goombas, plataformas, Koopas, huecos, plantas) y las mecánicas (bloques especiales, pisar Goombas, entrar en tubos), etc.
 ]
 
 === Estilo artístico
@@ -308,9 +309,12 @@ El estilo artístico define el aspecto visual del juego. Puede ser arte vectoria
 === Música y sonido
 ¿Qué estilo musical se utilizará? ¿Cómo influye la música en otros aspectos del juego y cómo contribuye a la experiencia del jugador? Al igual que el resto del contenido, debe prestarse para la narrativa y la experiencia del jugador. Por lo que es esencial indicar la forma en la que la música es diseñada, y la forma en la que conecta con los objetivos del juego.
 
-// TODO: ejemplo con más esencia
-#example(source: [Devil May Cry])[
-  La música de Devil May Cry es enérgica y emocionante, lo que genera en el jugador un sentimiento de adrenalina que lo motiva a combatir enemigos y realizar combos.
+#example(source: [Left 4 Dead])[
+  La música de Left 4 Dead es principalmente destacada por:
+
+  - Atmósfera de terror y cine B: Mezcla instrumentos orgánicos distorsionados con sintetizadores opresivos y percusiones industriales
+  - Identidad por campañas: Las pistas de los menús e in-game reflejan la geografía y el tono de cada escenario (del blues sureño al rock pesado)
+  - Silencios estratégicos: El diseño sabe cuándo retirar la música para dejar espacio a la tensión ambiental y los gritos de los infectados.
 ]
 
 === Mundo y escenarios
@@ -323,7 +327,7 @@ Procura no añadir detalles excesivamente específicos o irrelevantes.
 ]
 
 === Historia y personajes
-¿Cuáles son los puntos centrales de la narrativa del juego? ¿Quiénes son los personajes principales? Puedes explicar ambos juntos (historia completa y los personajes como contexto, como en el ejemplo) o separarlos. Procura igualmente que no caigas en descripciones irrelevantes o excesivamente específicos.
+¿Cuáles son los puntos centrales de la narrativa del juego? ¿Quiénes son los personajes principales? Puedes explicar ambos juntos (historia completa y los personajes como contexto, como en el ejemplo) o separarlos. Procura igualmente no caer en descripciones irrelevantes o excesivamente específicas.
 
 #example(source: [God of War])[
   God of War narra la historia de Kratos, un guerrero espartano que vendió su alma a Ares, dios de la guerra, para obtener la victoria en batalla. Tras ser engañado por Ares y asesinar a su propia familia, Kratos se convierte en el "Fantasma de Esparta" y decide ponerse al servicio de los dioses para liberar su mente de esos atormentadores recuerdos.
