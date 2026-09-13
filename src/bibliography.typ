@@ -1,3 +1,4 @@
+/// Referencias y recursos extra
 #let references = (
   "Lista de géneros de videojuegos en Wikipedia (en inglés)": "https://en.wikipedia.org/wiki/List_of_video_game_genres",
   "Estructura profesional de un GDD por UDIT": "https://www.udit.es/el-manifiesto-del-game-designer-por-que-tu-juego-necesita-un-game-design-document-gdd-y-como-crearlo-como-los-profesionales/",

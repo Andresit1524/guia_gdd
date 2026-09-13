@@ -11,7 +11,7 @@
     keywords: ("GDD", "Game Design", "Desarrollo de videojuegos"),
   )
   set page(
-    background: image("assets/logo_translucid.png", width: 60%),
+    background: image("../assets/logo_translucid.png", width: 60%),
     footer: align(right, context counter(page).display("1 de 1", both: true)),
   )
 

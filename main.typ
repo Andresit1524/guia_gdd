@@ -1,4 +1,4 @@
-#import "/style.typ": *
+#import "src/style.typ": *
 #show: style
 
 #title()
@@ -15,7 +15,7 @@ Hay dos métodos para elaborar un GDD:
 
 #columns(2)[
   #align(center)[
-    #image("assets/guion_gta_v.png", height: 10em, fit: "contain")
+    #image("assets/guion_gta_3&4.png", height: 10em, fit: "contain")
   ]
 
   *Monolítico:*
@@ -376,7 +376,7 @@ Notas adicionales o elementos que no encajen en las categorías anteriores.
 
 == Recursos
 #{
-  import "bibliography.typ": *
+  import "src/bibliography.typ": *
   for (text, _link) in references [
     - #link(_link)[#text]
   ]
@@ -384,7 +384,7 @@ Notas adicionales o elementos que no encajen en las categorías anteriores.
 
 == Juegos mencionados
 #{
-  import "games.typ": *
+  import "src/games.typ": *
   for (name, detail) in details [
     - #link(links.at(name))[#name] (#detail)
   ]
