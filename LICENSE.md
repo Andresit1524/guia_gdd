@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 [Hayran Andrés López](https://github.com/Andresit1524)
+Copyright (c) 2026 Hayran Andrés López, Daniel Durán y GDD Colombia
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

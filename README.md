@@ -17,5 +17,6 @@ Documento compuesto con Typst con la tipografía [Ancizar Sans](https://fonts.go
 
 ## Licencia
 - Logos de GDD: **todos los derechos reservados**
-- PDF, código fuente e imágenes: [MIT](LICENSE.md)
+- PDF y código fuente: [MIT](LICENSE.md)
+- Imágenes de terceros: créditos a sus respectivos autores
 - Ancizar Sans: Open Font License
