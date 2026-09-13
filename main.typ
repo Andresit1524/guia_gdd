@@ -386,6 +386,6 @@ Notas adicionales o elementos que no encajen en las categorías anteriores.
 #{
   import "games.typ": *
   for (name, detail) in details [
-    - #link(links.at(name))[#name] #detail
+    - #link(links.at(name))[#name] (#detail)
   ]
 }
